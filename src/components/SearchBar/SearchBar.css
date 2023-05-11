@@ -1,0 +1,26 @@
+.content-search-bar {
+    width: 100%;
+    height: 100%;
+}
+.content-form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-search-bar {
+    appearance: none;
+    width:70%;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    color: var(--secondary-color);
+    text-indent: 20px;
+}
+.main-search-bar::-webkit-search-cancel-button {
+    display: none;
+}
+.main-search-bar:focus{
+    outline:none;
+}

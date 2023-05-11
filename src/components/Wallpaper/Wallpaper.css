@@ -1,0 +1,16 @@
+.wallpaper-container {
+    width: calc((100%/6) - 8px);
+    margin:4px;
+    object-fit: cover;
+    display: block;
+}
+.wallpaper {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 5px;
+}
+img:not([src]){
+    display: none;
+}

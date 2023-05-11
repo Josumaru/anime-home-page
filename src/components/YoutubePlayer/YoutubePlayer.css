@@ -1,0 +1,69 @@
+.youtube-search-bar {
+    width: 40px;
+    border: none;
+    background-color: var(--dashboard-second-color);
+    color: var(--light-color);
+    height: 40px;
+    border-radius: 7px;
+    transition: all 0.5s ease;
+    text-indent: 40px;
+}
+.youtube-search-bar:focus {
+    outline: none;
+}
+.audio-player {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 200px;
+    margin-top:10px;
+    border-radius: 7px;
+    background-color: var(--dashboard-second-color);
+    color: var(--light-color);
+}
+.material-symbols-outlined {
+    cursor: pointer;
+}
+.search-result {
+    display: none;
+    overflow: auto;
+    height: 200px;
+    width: 100%;
+    background-color: var(--dashboard-second-color);
+    position:relative;
+    border-radius: 7px;
+    margin-top: 10px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    transition: all 0.5s ease-in-out;
+}
+.search-result::-webkit-scrollbar {
+    display: none;
+}
+.input-icon {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-form{
+    padding-top: 10px;
+}
+.player-image{
+    width: 100%;
+    position: absolute;
+}
+.audio-controls {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.youtube-embed {
+    width: 100%;
+    height: 100%;
+}

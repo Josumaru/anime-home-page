@@ -1,0 +1,5 @@
+.voice-assistant-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
